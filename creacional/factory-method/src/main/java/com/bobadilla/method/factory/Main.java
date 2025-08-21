@@ -2,8 +2,9 @@ package com.bobadilla.method.factory;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         printMessage(new JSONMessageCreator());
+        System.out.println();
+        System.out.println();
         printMessage(new TextMessageCreator());
     }
 
